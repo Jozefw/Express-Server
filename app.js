@@ -9,7 +9,7 @@ app.engine('html', hbs.__express);
 app.use(express.bodyParser());
 
 app.get('/', function(request, response){
-	response.render('index', {title: "My Blog", entries:blogEngine.getBlogEntries()});
+	response.render('index', {title: "My Blog",piss:"in my pants", entries:blogEngine.getBlogEntries()});
 
 });
 
